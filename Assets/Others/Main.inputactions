@@ -362,7 +362,7 @@
                 {
                     "name": "",
                     "id": "ff70f642-c006-4cd7-8145-6c2dcf519b86",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/leftCtrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "keybord",
@@ -406,7 +406,7 @@
                 {
                     "name": "",
                     "id": "3b2668fd-b373-4562-be65-48449b23903a",
-                    "path": "<Keyboard>/rightAlt",
+                    "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "keybord",

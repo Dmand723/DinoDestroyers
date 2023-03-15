@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     public PlayerContainerUI uiContainer;
     public GameManager gameManager;
     public GameObject deathEfectPrefab;
-
+    public Sprite taunt2;
 
     [Header("debug")]
     public bool debug;
@@ -230,6 +230,10 @@ public class PlayerController : MonoBehaviour
     private void taunt1()
     {
         Audio.PlayOneShot(playerfx[2]);
+    }
+    private void Taunt2()
+    {
+        Instantiate(taunt2, muzzle.position, Quaternion.identity);
     }
     public void addScore()
     {
@@ -435,6 +439,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.phase == InputActionPhase.Performed)
         {
+            Taunt2();
             if (debug)
             {
                 print("player " + playerIndex + " pressed taunt2 button");

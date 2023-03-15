@@ -1351,10 +1351,10 @@ RectTransform:
   m_Father: {fileID: 2120466590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 58.5}
-  m_SizeDelta: {x: 1350, y: 117}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -19, y: -114}
+  m_SizeDelta: {x: -1969.9199, y: 190.90002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215990584
 MonoBehaviour:
@@ -1499,10 +1499,10 @@ RectTransform:
   m_Father: {fileID: 2120466590}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 145.73, y: -85}
-  m_SizeDelta: {x: 291.4658, y: 99.2509}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1746.4087, y: 985.7129}
+  m_SizeDelta: {x: -3492.8115, y: -2042.1748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659615022
 MonoBehaviour:
@@ -1551,8 +1551,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2216,6 +2216,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: d670c5aeb5eaee345986899406b75bf6, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: da231564a9b16554599478cedbad0cc7, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 22
     m_Data: {fileID: 344877648, guid: e7f3ee09a20aacf4193a9cfba05d0b04, type: 3}
@@ -2223,6 +2225,8 @@ Tilemap:
     m_Data: {fileID: 555438338, guid: e7f3ee09a20aacf4193a9cfba05d0b04, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 2120445124, guid: e7f3ee09a20aacf4193a9cfba05d0b04, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 32
     m_Data:
@@ -2248,8 +2252,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -12, y: -5, z: 0}
-  m_Size: {x: 23, y: 9, z: 1}
+  m_Origin: {x: -18, y: -5, z: 0}
+  m_Size: {x: 29, y: 15, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -2283,7 +2287,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
+  m_MaximumTileChangeCount: 10000
   m_ExtrusionFactor: 0.00001
 --- !u!1 &1774702349
 GameObject:

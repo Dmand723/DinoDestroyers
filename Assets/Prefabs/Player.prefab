@@ -131,7 +131,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &5873351624165526472
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -148,7 +148,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5873351624442941614
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +281,7 @@ MonoBehaviour:
   uiContainer: {fileID: 0}
   gameManager: {fileID: 0}
   deathEfectPrefab: {fileID: 1020292939412995751, guid: 007df85e54714e44f805c20615aad844, type: 3}
+  taunt2: {fileID: 21300010, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
   debug: 1
 --- !u!82 &5873351624442941612
 AudioSource:
